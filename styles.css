@@ -1,0 +1,90 @@
+@font-face {
+	font-family: "Pokemon Solid";
+	src:
+		url("assets/fonts/pokemon/Pokemon Solid.ttf") format("truetype")
+}
+
+@font-face {
+	font-family: "Pokemon Hollow";
+	src:
+		url("assets/fonts/pokemon/Pokemon Hollow.ttf") format("truetype")
+}
+
+body {
+	margin: 0;
+	background-color: #ffd9ce;
+	color: #2f0a28;
+}
+
+.content {
+	background-color: #2f0a2850;
+	border: 5px solid #2f0a28;
+	margin: 20px;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 15px;
+	border-radius: 25px;
+	backdrop-filter: blur(1px);
+}
+
+.things {
+	margin-left: 25%;
+}
+
+.content h1 {
+	display: flex;
+	justify-content: center;
+}
+
+.navbar {
+	background-color: #2f0a28;
+}
+
+.navbar li {
+	display: inline-block;
+	padding-right: 45px;
+	margin: 0;
+}
+
+.navbar li ~ li{
+	transform: translate(0px, -5px);
+}
+
+ul {
+	margin: 0;
+}
+
+.navbar h1 {
+	font-family: "Pokemon Hollow";
+	font-weight: normal;
+	margin: 0;
+	padding: 5px;
+	padding-top: 7px;
+	padding-right: 45px;
+	padding-left: 10px;
+}
+
+.navbar a {
+	color: #e6b8a4;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	text-decoration: underline;
+}
+
+.miyuki-background {
+	position: fixed;
+	bottom: -1px;
+	right: -140px;
+	height: 80%;
+	z-index: -1;
+}
+
+.pikachu-background {
+	position: fixed;
+	bottom: -20px;
+	left: -50px;
+	height: 60%;
+	z-index: -1;
+}
